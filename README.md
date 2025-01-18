@@ -33,5 +33,11 @@ python3 script.py emails.txt
 ## Script Explanation
 The script works by sending HTTP POST requests to a specified URL with the email address and a placeholder password. It parses the server's JSON response to identify valid and invalid emails based on predefined error messages.
 
-### Code Overview
-Below is the Python code with added comments to explain its functionality and indicate areas for customization.
+## Customization
+- **Target URL**: Update the `url` variable in the `check_email` function to match the desired endpoint.
+- **Error Message**: Modify the `invalid_error` variable in the `enumerate_emails` function based on the server's response for invalid emails.
+- **Headers**: Update the `headers` dictionary if the server requires specific values.
+
+## Disclaimer
+This script is intended for educational purposes only. Ensure you have proper authorization before using it against any target system. Unauthorized use may violate applicable laws and regulations.
+
